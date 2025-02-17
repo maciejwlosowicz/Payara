@@ -16,7 +16,7 @@ interface PricingCardProps {
 const PricingCard: React.FC<PricingCardProps> = ({ title, subtitle, price, features, selected, setSelected }) => {
 
     return (
-        <div className={clsx(selected === title ? "card-active" : "card")}>
+        <div className={clsx(selected === title ? "card-active" : "card", "mt-2")}>
             <div className={clsx(selected === title ? "card-content-active" : "card-content")}>
                 <h3 className={clsx(selected === title ? "card-title-active" : "card-title", "Text-L-Medium")}>{title}</h3>
                 <div className={clsx(selected === title ? "card-subtitle-active" : "card-subtitle", "Text-Base-Medium pt-1")}>{subtitle}</div>

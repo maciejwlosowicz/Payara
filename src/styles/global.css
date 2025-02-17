@@ -31,12 +31,24 @@ body {
     padding-left: 1rem;
 }
 
+.pr-1 {
+    padding-right: 1rem;
+}
+
 .pt-15 {
     padding-top: 1.5rem;
 }
 
-.pb-725 {
-    padding-bottom: 7.25rem;
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.pb-4 {
+    padding-bottom: 4rem;
+}
+
+.pb-525 {
+    padding-bottom: 5.25rem;
 }
 
 /* Fonts */
@@ -375,7 +387,7 @@ main {
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 460px) {
 
     .card,
     .card-active {
