@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ThemeToggle from "./components/ThemeToggle";
+import Pricing from "./components/Pricing";
+import './styles/variables.css';
+import './styles/global.css';
 
-function App() {
+const App: React.FC = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className="page">
+      <div className="theme-toggle-btn">
+        <ThemeToggle />
+      </div>
+      <Pricing />
+    </section>
   );
-}
+};
 
 export default App;

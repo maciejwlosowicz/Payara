@@ -1,0 +1,204 @@
+:root {
+  /*** PRIMITIVES ***/
+
+  /* Font Sizes */
+  --fs-Base: 16px;
+  --fs-L: 36px;
+  --fs-XL: 48px;
+
+  /* Font Heights */
+  --lh-Base: 24px;
+  --lh-L: 40px;
+  --lh-XL: 48px;
+
+  /* Font Weights */
+  --fw-Light: 300;
+  --fw-Regular: 400;
+  --fw-Medium: 500;
+  --fw-Bold: 700;
+
+  /* Gray Colors */
+  --Colors-Gray-50: #f8fafc;
+  --Colors-Gray-100: #f1f5f9;
+  --Colors-Gray-200: #e2e8f0;
+  --Colors-Gray-300: #cbd5e1;
+  --Colors-Gray-400: #94a3b8;
+  --Colors-Gray-500: #64748b;
+  --Colors-Gray-600: #475569;
+  --Colors-Gray-700: #334155;
+  --Colors-Gray-800: #1e293b;
+  --Colors-Gray-900: #0f172a;
+  --Colors-Gray-950: #020617;
+
+  /* Violet Colors */
+  --Colors-Violet-50: #f5f3ff;
+  --Colors-Violet-100: #ede9fe;
+  --Colors-Violet-200: #ddd6fe;
+  --Colors-Violet-300: #c4b5fd;
+  --Colors-Violet-400: #a78bfa;
+  --Colors-Violet-500: #8b5cf6;
+  --Colors-Violet-600: #7c3aed;
+  --Colors-Violet-700: #6d28d9;
+  --Colors-Violet-800: #5b21b6;
+  --Colors-Violet-900: #4c1d95;
+  --Colors-Violet-950: #2e1065;
+
+  /* Red Colors */
+  --Colors-Red-50: #fef2f2;
+  --Colors-Red-100: #fee2e2;
+  --Colors-Red-200: #fecaca;
+  --Colors-Red-300: #fca5a5;
+  --Colors-Red-400: #f87171;
+  --Colors-Red-500: #ef4444;
+  --Colors-Red-600: #dc2626;
+  --Colors-Red-700: #b91c1c;
+  --Colors-Red-800: #991b1b;
+  --Colors-Red-900: #7f1d1d;
+  --Colors-Red-950: #450a0a;
+
+  /* Orange Colors */
+  --Colors-Orange-50: #fff7ed;
+  --Colors-Orange-100: #ffedd5;
+  --Colors-Orange-200: #fed7aa;
+  --Colors-Orange-300: #fdbb74;
+  --Colors-Orange-400: #fb923c;
+  --Colors-Orange-500: #f97316;
+  --Colors-Orange-600: #ea580c;
+  --Colors-Orange-700: #c2410c;
+  --Colors-Orange-800: #9a3412;
+  --Colors-Orange-900: #7c2d12;
+  --Colors-Orange-950: #431407;
+
+  /* Green Colors */
+  --Colors-Green-50: #f0fdf4;
+  --Colors-Green-100: #dcfce7;
+  --Colors-Green-200: #bbf7d0;
+  --Colors-Green-300: #86efac;
+  --Colors-Green-400: #4ade80;
+  --Colors-Green-500: #22c55e;
+  --Colors-Green-600: #16a34a;
+  --Colors-Green-700: #15803d;
+  --Colors-Green-800: #166534;
+  --Colors-Green-900: #14532d;
+  --Colors-Green-950: #0f3a1d;
+
+  /* Border Radius */
+  --Border-Radius-XS: 4px;
+  --Border-Radius-SM: 8px;
+  --Border-Radius-MD: 16px;
+  --Border-Radius-L: 32px;
+  --Border-Radius-XL: 64px;
+  --Border-Radius-Pill: 99999px;
+
+  /* Box Shadows */
+  --Shadow-SM: 0px 4px 14px 0px rgba(167, 139, 250, 1);
+  --Shadow-Base: 0px 4px 24px 0px rgba(167, 139, 250, 1);
+  --Shadow-MD: 0px 4px 34px 0px rgba(167, 139, 250, 1);
+  --Shadow-L: 0px 4px 44px 0px rgba(167, 139, 250, 1);
+  --Shadow-XL: 0px 4px 54px 0px rgba(167, 139, 250, 1);
+  --Shadow-2XL: 0px 4px 74px 0px rgba(167, 139, 250, 1);
+
+
+  /*** SEMANTICS ***/
+
+  /* Surfaces */
+  --Light-Surface-Primary: var(--Colors-Violet-50);
+  --Light-Surface-Secondary: var(--Colors-Violet-800);
+  --Light-Surface-Contrast: var(--Colors-Violet-100);
+
+  --Dark-Surface-Primary: var(--Colors-Gray-800);
+  --Dark-Surface-Secondary: var(--Colors-Violet-800);
+  --Dark-Surface-Contrast: var(--Colors-Gray-700);
+
+  /* Text */
+  --Light-Text-Heading: var(--Colors-Violet-950);
+  --Light-Text-Heading-Violet: var(--Colors-Violet-500);
+  --Light-Text-SubHeading: var(--Colors-Gray-500);
+
+  --Dark-Text-Heading: var(--Colors-Gray-50);
+  --Dark-Text-Heading-Violet: var(--Colors-Violet-800);
+  --Dark-Text-SubHeading: var(--Colors-Gray-400);
+
+
+  /*** COMPONENT-SPECIFIC ***/
+
+  /* Primary Button */
+  --Btn-Primary-Active: var(--Colors-Orange-500);
+  --Btn-Primary-Hover: var(--Colors-Orange-600);
+  --Btn-Primary-Disabled: var(--Colors-Violet-300);
+  --Btn-Primary-TextIcon: var(--Colors-Violet-50);
+  --Btn-Primary-Shadow: var(--Shadow-Light-SM);
+
+  /* Secondary Button */
+  --Btn-Secondary-Active: var(--Colors-Violet-100);
+  --Btn-Secondary-Hover: var(--Colors-Violet-100);
+  --Btn-Secondary-Disabled: var(--Colors-Violet-400);
+  --Btn-Secondary-TextIcon: var(--Colors-Violet-700);
+  --Btn-Secondary-Shadow: var(--Shadow-Light-SM);
+
+  /* Default Styles */
+  --OurPlan-Title: var(--Colors-Violet-950);
+  --OurPlan-Title-Violet: var(--Colors-Violet-600);
+  --OurPlan-Subtitle: var(--Colors-Gray-600);
+  --OurPlan-Background: var(--Light-Surface-Primary);
+
+  /* Box / Default Styles */
+  --OurPlan-Box-Subtitle: var(--Colors-Gray-700);
+  --OurPlan-Box-Background: var(--Colors-Violet-100);
+  --OurPlan-Box-IconYes: var(--Colors-Violet-500);
+  --OurPlan-Box-IconNo: var(--Colors-Violet-300);
+  --OurPlan-Box-TextNo: var(--Colors-Violet-400);
+
+  /* Box / Focus Styles */
+  --OurPlan-Box-Focus-Subtitle: var(--Colors-Violet-50);
+  --OurPlan-Box-Focus-Background: var(--Colors-Violet-700);
+  --OurPlan-Box-Focus-IconYes: var(--Colors-Violet-100);
+  --OurPlan-Box-Focus-IconNo: var(--Colors-Violet-500);
+  --OurPlan-Box-Focus-TextNo: var(--Colors-Violet-400);
+  --OurPlan-Box-Focus-Shadow: var(--Shadow-Light-L);
+}
+
+[data-theme="dark"] {
+  /* Box Shadows */
+  --Shadow-SM: 0px 4px 14px 0px rgba(2, 6, 23, 1);
+  --Shadow-Base: 0px 4px 24px 0px rgba(2, 6, 23, 1);
+  --Shadow-MD: 0px 4px 34px 0px rgba(2, 6, 23, 1);
+  --Shadow-L: 0px 4px 44px 0px rgba(2, 6, 23, 1);
+  --Shadow-XL: 0px 4px 54px 0px rgba(2, 6, 23, 1);
+  --Shadow-2XL: 0px 4px 74px 0px rgba(2, 6, 23, 1);
+
+  /* Primary Button */
+  --Btn-Primary-Active: var(--Colors-Violet-50);
+  --Btn-Primary-Hover: var(--Colors-Violet-100);
+  --Btn-Primary-Disabled: var(--Colors-Violet-400);
+  --Btn-Primary-TextIcon: var(--Colors-Violet-700);
+  --Btn-Primary-Shadow: var(--Shadow-Dark-SM);
+
+  /* Secondary Button */
+  --Btn-Secondary-Active: var(--Colors-Gray-600);
+  --Btn-Secondary-Hover: var(--Colors-Gray-700);
+  --Btn-Secondary-Disabled: var(--Colors-Gray-500);
+  --Btn-Secondary-TextIcon: var(--Colors-Gray-300);
+  --Btn-Secondary-Shadow: var(--Shadow-Dark-SM);
+
+  /* Default Styles */
+  --OurPlan-Title: var(--Colors-Violet-50);
+  --OurPlan-Title-Violet: var(--Colors-Violet-500);
+  --OurPlan-Subtitle: var(--Colors-Gray-400);
+  --OurPlan-Background: var(--Dark-Surface-Primary);
+
+  /* Box / Default Styles */
+  --OurPlan-Box-Subtitle: var(--Colors-Violet-100);
+  --OurPlan-Box-Background: var(--Colors-Gray-700);
+  --OurPlan-Box-IconYes: var(--Colors-Violet-300);
+  --OurPlan-Box-IconNo: var(--Colors-Gray-500);
+  --OurPlan-Box-TextNo: var(--Colors-Gray-400);
+
+  /* Box / Focus Styles */
+  --OurPlan-Box-Focus-Subtitle: var(--Colors-Gray-100);
+  --OurPlan-Box-Focus-Background: var(--Colors-Violet-700);
+  --OurPlan-Box-Focus-IconYes: var(--Colors-Violet-200);
+  --OurPlan-Box-Focus-IconNo: var(--Colors-Violet-500);
+  --OurPlan-Box-Focus-TextNo: var(--Colors-Violet-400);
+  --OurPlan-Box-Focus-Shadow: var(--Shadow-Dark-L);
+}
