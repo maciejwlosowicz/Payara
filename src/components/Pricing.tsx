@@ -62,7 +62,7 @@ const Pricing: React.FC = () => {
 
   return (
     <div className="pricing pb-4">
-      <div className="pt-15 pb-525">
+      <div className="pt-15 pb-525 pl-1 pr-1">
         <h1 className="pricing-title Text-XL-Bold">Powerful features for <span>powerful creators</span></h1>
         <div className="pricing-subtitle Text-Base-Medium pt-1">Choose a plan that's right for you</div>
       </div>
